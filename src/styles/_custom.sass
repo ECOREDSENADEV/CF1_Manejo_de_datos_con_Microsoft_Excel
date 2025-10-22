@@ -53,10 +53,40 @@ figcaption
 .bg-color
   &-1
     background-color: #E8E8E8 !important
-  //&-2
-    background-color: #FFE69B
-  //&-3
-    background-color: #D5D1E2
+  &-2
+    background-color: #FEFBCC
+  &-3
+    background-color: #D5F1DE
+  &-4
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(233, 247, 237, 1) 30%, rgba(229, 231, 243, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-5
+    background-color: #ACE3BE
+  &-6
+    background-color: #FDF699
+  &-7
+    background-color: #31BA5C
+    border-radius: 50%
+    width: 37px        // puedes ajustar el tamaño
+    height: 37px
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 auto     // centra el círculo dentro del h4
+    color: #fff        // color de texto si lo deseas
+  &-8
+    background-color: #CFD1EA
+  &-9
+    background-color: #E9F7ED
+  &-10
+    background-color: #070E4A
+  &-11
+    background-color: #F8F7F6
+  &-12
+    color: #22813F !important
+  &-13
+    background-color: #D9D6D2
+  &-14
+    background-color: #31BA5C
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -94,3 +124,69 @@ figcaption
   &-slider
     //background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FAE700
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 0px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 40px
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #E666FD !important
+  color: white
+.acordion__activo
+  background-color: #E5E7F3 !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+    
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto 
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+.etiqueta
+  background-color: #ACE3BE
+  color: $color-sistema-texto
+
