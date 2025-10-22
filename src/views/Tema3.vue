@@ -94,7 +94,7 @@
       h5 Figura 3.
       span Cálculo del IVA mediante una referencia absoluta en Excel.
     
-    .row
+    .row.mb-5
       .col-lg-6
         figure.mb-5
           img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in", alt='Captura de pantalla de una hoja de cálculo en Excel con una fórmula en la celda B2 que multiplica el valor de A2 por la celda E1, utilizando referencia absoluta. Incluye columnas con encabezados "Precio", "IVA" y "Tasa IVA", y valores numéricos ingresados.')

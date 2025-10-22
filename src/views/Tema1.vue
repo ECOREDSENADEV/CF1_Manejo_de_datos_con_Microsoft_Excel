@@ -93,7 +93,7 @@
         figure.mb-5
           img(src="@/assets/curso/tema1/4.png", data-aos="zoom-in", alt="Captura de pantalla de la interfaz de Excel con etiquetas que señalan la barra de acceso rápido, la cinta de opciones con pestañas y herramientas agrupadas, y la barra de fórmulas ubicada debajo para editar el contenido de las celdas. ")
     
-        .row
+        .row.justify-content-center
           .col-sm-6.col-lg-4.mb-4.mb-lg-0
             .tarjeta--boton.bg-color-6.p-4.h-100
               h4.bg-color-7.mb-3 A
